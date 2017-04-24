@@ -2,8 +2,7 @@
 /**
  * CrawlerDetect plugin for Craft CMS
  *
- * CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent and http_from header. Currently
- * able to detect 1,000&#39;s of bots/spiders/crawlers.
+ * Use CrawlerDetect to detect 1.000's of bots/crawlers/spiders in Craft.
  *
  * @author    Superbig
  * @copyright Copyright (c) 2017 Superbig
@@ -39,7 +38,7 @@ class CrawlerDetectPlugin extends BasePlugin
      */
     public function getDescription ()
     {
-        return Craft::t('CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent and http_from header. Currently able to detect 1,000&#39;s of bots/spiders/crawlers.');
+        return Craft::t('Use CrawlerDetect to detect 1.000\'s of bots/crawlers/spiders in Craft.');
     }
 
     /**
